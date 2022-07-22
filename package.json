@@ -1,0 +1,22 @@
+{
+  "name": "weather_api",
+  "version": "1.0.0",
+  "description": "_IntroductionWeatherAPI_com_provides_access_to_weather_and_geo_data_via_a_JSONXML_restful_API__It_allows_developers_to_create_desktop_web_and_mobile_applications_using_this_data_very_easy___We_provide_following_data_through_our_API______Real_time_weather__14_day_weather_forecast__Astronomy__Time_zone__Location_data__Search_or_Autocomplete_API__NEW_Historical_weather__NEW_Future_Weather__Upto_300_days_ahead__Weather_Alerts__Air_Quality_Data_Getting_Started__You_need_to__signup_httpswww_weatherapi_comsignup_aspx_and_then_you_can_find_your_API_key_under__your_account_httpswww_weatherapi_comlogin_aspx_and_start_using_API_right_away__We_have__code_libraries_httpswww_weatherapi_comdocscode_libraries_aspx_for_different_programming_languages_like_PHP__net_JAVA_etc___If_you_find_any_features_missing_or_have_any_suggestions_please__contact_us_httpswww_weatherapi_comcontact_aspx____Authentication__API_access_to_the_data_is_protected_by_an_API_key__If_at_anytime_you_find_the_API_key_has_become_vulnerable_please_regenerate_the_key_using_Regenerate_button_next_to_the_API_key___Authentication_to_the_WeatherAPI_com_API_is_provided_by_passing_your_API_key_as_request_parameter_through_an_API________key_parameter_keyYOUR_API_KEY_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0",
+    "querystring": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
